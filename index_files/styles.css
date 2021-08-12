@@ -4323,7 +4323,10 @@ figcaption {
         margin-left: auto;
     }
     .interests-container {
-        overflow: visible;
+        overflow: hidden;
+    }
+    .w-col-3 {
+        display: none;
     }
 }
 
@@ -4331,6 +4334,9 @@ figcaption {
     .rich-text {
         width: 100%;
         max-width: none;
+    }
+    .interests-container {
+        display: none;
     }
     .heading-jumbo {
         font-size: 36px;
@@ -4423,9 +4429,6 @@ figcaption {
     .email-link {
         font-size: 30px;
         line-height: 46px;
-    }
-    .interests-container {
-        overflow: visible;
     }
     .body {
         overflow: visible;
